@@ -1,0 +1,634 @@
+---
+§8Starter:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§4Twitter-@AFEZOHH:sharpness:1"
+  - "278:0:1:§4Twitter-@AFEZOHH:efficiency:1:durability:1"
+  - "279:0:1:§7St§larter Axe:efficiency:1:durability:1"
+  - "364:0:64"
+  - "466:0:5"
+  - "322:0:16"
+  - "368:0:5"
+  - "341:0:1"
+  - "432:0:1"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§7§lStarter Helmet:protection:1"
+  chestplate: "311:0:1:§7§lStarter Chestplate:protection:1"
+  leggings: "312:0:1:§7§lStarter Leggings:protection:1"
+  boots: "313:0:1:§7§lStarter Boots:protection:1"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Starter Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours:
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Weekly:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§7§lWeekly Sword:sharpness:2"
+  - "278:0:1:§7§lWeekly Pickaxe:efficiency:2:durability:2"
+  - "279:0:1:§7§lWeekly Axe:efficiency:2:durability:2"
+  - "364:0:64"
+  - "466:0:6"
+  - "322:0:32"
+  - "368:0:5"
+  - "341:0:2"
+  - "432:0:2"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§7§lWeekly Helmet:protection:2"
+  chestplate: "311:0:1:§7§lWeekly Chestplate:protection:2"
+  leggings: "312:0:1:§7§lWeekly Leggings:protection:2"
+  boots: "313:0:1:§7§lWeekly Boots:protection:2"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Weekly Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 168
+    minutes:
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Monthly:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§7§lMonthly Sword:sharpness:3"
+  - "278:0:1:§7§lMonthly Pickaxe:efficiency:3:durability:3"
+  - "279:0:1:§7§lMonthly Axe:efficiency:3:durability:3"
+  - "364:0:64"
+  - "466:0:7"
+  - "322:0:32"
+  - "368:0:5"
+  - "341:0:3"
+  - "432:0:3"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§7§lMonthly Helmet:protection:3"
+  chestplate: "311:0:1:§7§lMonthly Chestplate:protection:3"
+  leggings: "312:0:1:§7§lMonthly Leggings:protection:3"
+  boots: "313:0:1:§7§lMonthly Boots:protection:3"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Monthly Kit!"
+  - "effect {player} speed 1000 1"
+  - "givemoney {player} 10000"
+  
+  cooldown:
+    hours: 730
+    minutes:
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Legend:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§e§lLegend Sword:sharpness:4"
+  - "278:0:1:§e§lLegend Pickaxe:efficiency:4:durability:4"
+  - "279:0:1:§e§lLegend Axe:efficiency:4:durability:4"
+  - "262:0:64"
+  - "364:0:64"
+  - "466:0:8"
+  - "322:0:64"
+  - "368:0:5"
+  - "341:0:4"
+  - "432:0:4"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§e§lLegend Helmet:protection:4"
+  chestplate: "311:0:1:§e§lLegend Chestplate:protection:4"
+  leggings: "312:0:1:§e§lLegend Leggings:protection:4"
+  boots: "313:0:1:§e§lLegend Boots:protection:4"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Legend Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Mythic:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§b§lMythic Sword:sharpness:5"
+  - "278:0:1:§b§lMythic Pickaxe:efficiency:5:durability:5"
+  - "279:0:1:§b§lMythic Axe:efficiency:5:durability:5"
+  - "364:0:64"
+  - "466:0:9"
+  - "322:0:64"
+  - "368:0:5"
+  - "341:0:5"
+  - "432:0:5"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§b§lMythic Helmet:protection:5"
+  chestplate: "311:0:1:§b§lMythic Chestplate:protection:5"
+  leggings: "312:0:1:§b§lMythic Leggings:protection:5"
+  boots: "313:0:1:§b§lMythic Boots:protection:5"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Mythic Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Noble:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§a§lNoble Sword:sharpness:6"
+  - "278:0:1:§a§lNoble Pickaxe:efficiency:6:durability:6"
+  - "279:0:1:§a§lNoble Axe:efficiency:6:durability:6"
+  - "364:0:64"
+  - "466:0:10"
+  - "322:0:64"
+  - "368:0:5"
+  - "341:0:6"
+  - "432:0:6"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§a§lNoble Helmet:protection:6"
+  chestplate: "311:0:1:§a§lNoble Chestplate:protection:6"
+  leggings: "312:0:1:§a§lNoble Leggings:protection:6"
+  boots: "313:0:1:§a§lNoble Boots:protection:6"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Noble Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Eclipse:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§1§lEclipse Sword:sharpness:7"
+  - "278:0:1:§1§lEclipse Pickaxe:efficiency:7:durability:7"
+  - "279:0:1:§1§lEclipse Axe:efficiency:7:durability:7"
+  - "364:0:64"
+  - "466:0:11"
+  - "322:0:64"
+  - "368:0:5"
+  - "341:0:7"
+  - "432:0:7"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§1§lEclipse Helmet:protection:7"
+  chestplate: "311:0:1:§1§lEclipse Chestplate:protection:7"
+  leggings: "312:0:1:§1§lEclipse Leggings:protection:7"
+  boots: "313:0:1:§1§lEclipse Boots:protection:7"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Eclipse Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Nova:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§2§lNova Sword:sharpness:8"
+  - "278:0:1:§2§lNova Pickaxe:efficiency:8:durability:8"
+  - "279:0:1:§2§lNova Axe:efficiency:8:durability:8"
+  - "364:0:64"
+  - "466:0:12"
+  - "322:0:64"
+  - "368:0:5"
+  - "341:0:8"
+  - "432:0:8"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§2§lNova Helmet:protection:8"
+  chestplate: "311:0:1:§2§lNova Chestplate:protection:8"
+  leggings: "312:0:1:§2§lNova Leggings:protection:8"
+  boots: "313:0:1:§2§lNova Boots:protection:8"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Nova Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Forerunner:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§d§lForerunner Sword:sharpness:9"
+  - "278:0:1:§d§lForerunner Pickaxe:efficiency:9:durability:9"
+  - "279:0:1:§d§lForerunner Axe:efficiency:9:durability:9"
+  - "364:0:64"
+  - "466:0:13"
+  - "322:0:64"
+  - "368:0:5"
+  - "341:0:9"
+  - "432:0:9"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§d§lForerunner Helmet:protection:9"
+  chestplate: "311:0:1:§d§lForerunner Chestplate:protection:9"
+  leggings: "312:0:1:§d§lForerunner Leggings:protection:9"
+  boots: "313:0:1:§d§lForerunner Boots:protection:9"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Forerunner Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Reclaimer:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§3§lReclaimer Sword:sharpness:10"
+  - "278:0:1:§3§lReclaimer Pickaxe:efficiency:10:durability:10"
+  - "279:0:1:§3§lReclaimer Axe:efficiency:10:durability:10"
+  - "364:0:64"
+  - "466:0:14"
+  - "322:0:64"
+  - "368:0:5"
+  - "341:0:10"
+  - "432:0:10"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§3§lReclaimer Helmet:protection:10"
+  chestplate: "311:0:1:§3§lReclaimer Chestplate:protection:10"
+  leggings: "312:0:1:§3§lReclaimer Leggings:protection:10"
+  boots: "313:0:1:§3§lReclaimer Boots:protection:10"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Reclaimer Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "luca28pet"
+  - "dioconsole"
+Inheritor:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+
+  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
+
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+
+  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "276:0:1:§9§lInheritor Sword:sharpness:11"
+  - "278:0:1:§9§lInheritor Pickaxe:efficiency:11:durability:11"
+  - "279:0:1:§9§lInheritor Axe:efficiency:11:durability:11"
+  - "364:0:64"
+  - "466:0:15"
+  - "322:0:64"
+  - "368:0:5"
+  - "341:0:11"
+  - "432:0:11"
+  - "49:0:64"
+  - "49:0:64"
+  helmet: "310:0:1:§9§lInheritor Helmet:protection:11"
+  chestplate: "311:0:1:§9§lInheritor Chestplate:protection:11"
+  leggings: "312:0:1:§9§lInheritor Leggings:protection:11"
+  boots: "313:0:1:§9§lInheritor Boots:protection:11"
+
+
+  commands:
+  - "tell {player} §7§l You have gotten Inheritor Kit!"
+  - "effect {player} speed 1000 1"
+  
+  cooldown:
+    hours: 
+    minutes: 
+
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+
+
+  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
+  worlds:
+  - "world2"
+  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+  users:
+  - "My DnKn Donuts"
+  - "Twitter : @AFezohh"
+...
+
+
+...	
